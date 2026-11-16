@@ -28,7 +28,7 @@ Output format:
   |       vertical wall
   spaces  open cell or passage
 
-How to run (Go must be installed; see https://go.dev/dl/):
+How to run (Go must be installed; see https://go.dev/dl/)[Latest version: 1.27]:
 
     go run Wilson.go
 
