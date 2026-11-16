@@ -383,7 +383,6 @@ func (m *Maze) String() string {
  */
 func main() {
 	fmt.Println("Wilson's Algorithm Maze Generator")
-	fmt.Println("Wilson's Algorithm Maze Generator")
 	fmt.Println("This program builds a random maze using Wilson's algorithm,")
 	fmt.Println("which joins cells with loop-erased random walks so that the")
 	fmt.Println("maze has no loops and every cell can be reached. Enter the")
