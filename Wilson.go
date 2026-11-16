@@ -35,7 +35,7 @@
  *   on both of the two cells it joins.
  *
  * OPERATIONAL REQUIREMENTS
- *   Language: Go (use "go version" to check; developed with Go [VERSION]).
+ *   Language: Go
  *   Packages: standard library only (bufio, fmt, math/rand, os, strings, time).
  *   Compile/run: go run Wilson.go     (or: go build Wilson.go, then ./Wilson)
  *   Input: typed at the keyboard when prompted (number of rows, then number
@@ -53,6 +53,9 @@
  *     too, and typing "3.5" accepts 3 and rejects the ".5" at the next prompt.
  *   - No upper limit is placed on the maze size; extremely large sizes use
  *     large amounts of memory and time.
+ *
+ * BACK UP LINK
+ * https://github.com/HAR5H1E/CSC372
  */
 package main
 
@@ -380,6 +383,11 @@ func (m *Maze) String() string {
  */
 func main() {
 	fmt.Println("Wilson's Algorithm Maze Generator")
+	fmt.Println("Wilson's Algorithm Maze Generator")
+	fmt.Println("This program builds a random maze using Wilson's algorithm,")
+	fmt.Println("which joins cells with loop-erased random walks so that the")
+	fmt.Println("maze has no loops and every cell can be reached. Enter the")
+	fmt.Println("number of rows and columns, and the maze is printed as text.")
 	fmt.Println()
 
 	inputReader := bufio.NewReader(os.Stdin)               // buffered reader for keyboard input
